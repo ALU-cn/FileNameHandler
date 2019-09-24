@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FileNameHandler.exe" version="1.0.0.1" publicKeyToken="b632472c03e0d2ec" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FileNameHandler" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FileNameHandler.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FileNameHandler.exe" size="6080">
+      <assemblyIdentity name="FileNameHandler" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>mv91eW1yIo64WMh6NPM/ALlYP38=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=DESKTOP-C7NHI8B\riven" issuerKeyHash="bb9137a7fcc286deb8f33860ef7dca2376b1058f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>b40ujff1f2lFSnXYDfgHFbK9Pc0=</DigestValue></Reference></SignedInfo><SignatureValue>Yrjxu1N3ZeOs5UiiauCtA1cEaZ0Mn2Rnpwf5lGPaSU5YztfovIcJlsz5DiABOhb/9UzfADX3uP43uH0qgWm0XXz5mm3A59xg52kwKTxT4gP8yL+I0MtqwotNmxrM3mTdz2JMNg41OfWKAM8t8w7bblm3VdEIn94r+8EbIsm2WPA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sM0jZHXvfU6HqpeZDOoJgNQ6H1a/IM9qOVaxWBh/5l0az62oaw/vNFSoE8px2JmN4NUoRfk++fkwLJm+DnqfmyFX0J3+dKRcrUOx/61H0kiiXGAOqbLw4+wrP7cMo8hk6XP1YbMMkUhLdU05Kv/c1HyrTdt1uSv0ljyo3HLx0GE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cd3dbdb21507f80dd8754a45697ff5f78d2e8d6f" Description="" Url=""><as:assemblyIdentity name="FileNameHandler.exe" version="1.0.0.1" publicKeyToken="b632472c03e0d2ec" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-C7NHI8B\riven</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5OjtPWKfyjPsinrRV/FD+88I3QE=</DigestValue></Reference></SignedInfo><SignatureValue>cUycyqFoq89zofHDAuqdL28C4UvFuzWAU3tk2fYkvQsD4QVwwdPaGaCw69qg7MP5Tt1raTCu/+EfQJVc2zehBdsP8C5NCLQxpc1QXyUdGq+831q4KR8kWhRW7xHM5KawHL0T3DZXSkP6iAXtdSV55h+1HIOq7CfIMNtndERNSUk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sM0jZHXvfU6HqpeZDOoJgNQ6H1a/IM9qOVaxWBh/5l0az62oaw/vNFSoE8px2JmN4NUoRfk++fkwLJm+DnqfmyFX0J3+dKRcrUOx/61H0kiiXGAOqbLw4+wrP7cMo8hk6XP1YbMMkUhLdU05Kv/c1HyrTdt1uSv0ljyo3HLx0GE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQFi6AemZjOK5BeDizjbJ9xzANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMANwBOAEgASQA4AEIAXAByAGkAdgBlAG4wHhcNMTkwOTI0MDczMDM1WhcNMjAwOTIzMTMzMDM1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMANwBOAEgASQA4AEIAXAByAGkAdgBlAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALDNI2R1731Oh6qXmQzqCYDUOh9WvyDPajlWsVgYf+ZdGs+tqGsP7zRUqBPKcdiZjeDVKEX5Pvn5MCyZvg56n5shV9Cd/nSkXK1Dsf+tR9JIolxgDqmy8OPsKz+3DKPIZOlz9WGzDJFIS3VNOSr/3NR8q03bdbkr9JY8qNxy8dBhAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEARVlJIGcrapi5e7kL+PQ6ObpHUi6o0q5THTx6zW/FuDUomFEBTh6CtAsjeDzhip8+vJCmWzetXbaD4STjHBV7hIjBWx5tZhQJpO1K9NgNrXhjZSH6XYzET13pPzrkAzJa8Gdwp+OaVjOmXRt5vO+XsM8dDvNmQ44WH9ppTzruFro=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

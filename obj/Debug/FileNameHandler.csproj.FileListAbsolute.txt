@@ -1,0 +1,10 @@
+F:\【P1项目相关资料】\工具\FileNameHandler\FileNameHandler\bin\Debug\FileNameHandler.exe
+F:\【P1项目相关资料】\工具\FileNameHandler\FileNameHandler\bin\Debug\FileNameHandler.pdb
+F:\【P1项目相关资料】\工具\FileNameHandler\FileNameHandler\obj\Debug\FileNameHandler.csprojAssemblyReference.cache
+F:\【P1项目相关资料】\工具\FileNameHandler\FileNameHandler\obj\Debug\FileNameHandler.csproj.CoreCompileInputs.cache
+F:\【P1项目相关资料】\工具\FileNameHandler\FileNameHandler\obj\Debug\FileNameHandler.exe
+F:\【P1项目相关资料】\工具\FileNameHandler\FileNameHandler\obj\Debug\FileNameHandler.pdb
+F:\【P1项目相关资料】\工具\FileNameHandler\FileNameHandler\bin\Debug\FileNameHandler.exe.manifest
+F:\【P1项目相关资料】\工具\FileNameHandler\FileNameHandler\bin\Debug\FileNameHandler.application
+F:\【P1项目相关资料】\工具\FileNameHandler\FileNameHandler\obj\Debug\FileNameHandler.exe.manifest
+F:\【P1项目相关资料】\工具\FileNameHandler\FileNameHandler\obj\Debug\FileNameHandler.application
